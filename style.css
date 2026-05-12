@@ -1,0 +1,38 @@
+body{
+  font-family: Arial;
+  padding:20px;
+}
+
+table{
+  width:100%;
+  border-collapse:collapse;
+}
+
+th, td{
+  border:1px solid #ccc;
+  padding:10px;
+  text-align:center;
+}
+
+select{
+  width:100%;
+  padding:5px;
+}
+.btn-print{
+padding:10px 20px;
+margin-bottom:20px;
+cursor:pointer;
+font-size:16px;
+}
+
+@media print{
+
+.btn-print{
+display:none;
+}
+
+body{
+background:white;
+}
+
+}
