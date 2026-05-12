@@ -36,3 +36,13 @@ background:white;
 }
 
 }
+.tratamiento-box{
+text-align:left;
+padding:10px;
+background:#f8f8f8;
+}
+
+.tratamiento-box label{
+margin-right:15px;
+display:inline-block;
+}
